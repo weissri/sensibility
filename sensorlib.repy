@@ -91,7 +91,7 @@ def getconnection(ap_port):
   exitall()
 
 
-
+# ioctl
 def request_data(sl4a_socket, method, args):
 
   send_rpc_request(sl4a_socket, method, args)
